@@ -2575,8 +2575,8 @@ void StaticData::HintTable_Init() {
                                             // /*spanish*/las #hermanas hechiceras# portan #[[1]]#.
 
     hintTextTable[RHT_GIFT_FROM_RAURU] = HintText(CustomMessage("They say that the #Sage of Light# gifts @ #[[1]]#.",
-                                                     /*german*/ "Man erzählt sich, daß die #Weise des Lichts# #[[1]]# schenke.",
-                                                     /*french*/ "Selon moi, #la Sage de la Lumière# donne #[[1]]#.", {QM_RED, QM_GREEN}),
+                                                     /*german*/ "Man erzählt sich, daß der #Weise des Lichts# #[[1]]# schenke.",
+                                                     /*french*/ "Selon moi, #le Sage de la Lumière# donne #[[1]]#.", {QM_RED, QM_GREEN}),
                                                  {},
                                                  {CustomMessage("They say that #a former owl# gifts @ #[[1]]#.",
                                                      /*german*/ "Man erzählt sich, daß #eine einstige Eule# #[[1]]# schenke.",
