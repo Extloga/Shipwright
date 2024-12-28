@@ -2574,9 +2574,13 @@ void StaticData::HintTable_Init() {
                                                /*french*/ "Selon moi, #les sorcières jumelles# possède #[[1]]#.", {QM_RED, QM_GREEN})});
                                             // /*spanish*/las #hermanas hechiceras# portan #[[1]]#.
 
-    hintTextTable[RHT_GIFT_FROM_RAURU] = HintText(CustomMessage("They say that the #Sage of Light# gifts @ #[[1]]#.", {QM_RED, QM_GREEN}),
-                                           {},
-                                           {CustomMessage("They say that #a former owl# gifts @ #[[1]]#.", {QM_RED, QM_GREEN})});
+    hintTextTable[RHT_GIFT_FROM_RAURU] = HintText(CustomMessage("They say that the #Sage of Light# gifts @ #[[1]]#.",
+                                                    /*german*/ "Man erzählt sich, daß die #Weise des Lichts# #[[1]]# schenke.",
+                                                    /*french*/ "Selon moi, #la Sage de la Lumière# donne #[[1]]#.", {QM_RED, QM_GREEN}),
+                                                 {},
+                                                 {CustomMessage("They say that #a former owl# gifts @ #[[1]]#.",
+                                                    /*german*/ "Man erzählt sich, daß #eine einstige Eule# #[[1]]# schenke.",
+                                                    /*french*/ "Selon moi, #un ancien hibou# donne #[[1]]#.", {QM_RED, QM_GREEN})});
 
     /*--------------------------
     |     BRIDGE HINT TEXT     |
